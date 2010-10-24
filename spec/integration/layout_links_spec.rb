@@ -18,6 +18,6 @@ describe "Layout links" do
 
   it "should have a Help page at '/help'" do
     get '/help'
-    response.should render_template('pages/help')
+    response.should render_template('pages/help') 
   end
 end
