@@ -8,7 +8,7 @@
 #  email      :string(255)
 #  created_at :datetime
 #  updated_at :datetime
-# freddy
+# 
 
 class User < ActiveRecord::Base
 	attr_accessible :name, :email
